@@ -37,7 +37,7 @@ for y in y_train:
 for y in y_eval:
   y=int(y)
 
-dftrain.head()
+#dftrain.head()
 
 def build_and_compile_model(norm):
   model = keras.Sequential([
