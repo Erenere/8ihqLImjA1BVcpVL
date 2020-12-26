@@ -33,7 +33,7 @@ dfeval = df.copy()
 y_train = dftrain.pop('Y')
 y_eval = dfeval.pop('Y')
 
-df.head()
+#df.head()  to see 
 
 def build_and_compile_model(norm):
   model = keras.Sequential([
